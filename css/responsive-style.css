@@ -1,0 +1,354 @@
+/*Screen Size 1900*/
+@media screen and (max-width: 1900px) {
+  /*Hero Section*/
+  .home {
+    h1 {
+      width: 100%;
+      transition: all 0.2s ease;
+    }
+  }
+}
+/*Screen Size 1600*/
+@media screen and (max-width: 1600px) {
+  /*Hero Section*/
+  .home {
+    h1 {
+      font-size: 50px;
+      transition: all 0.2s ease;
+    }
+    p {
+      font-size: 20px;
+      width: 100%;
+      transition: all 0.2s ease;
+    }
+    .hero-right {
+      .hero-img {
+        transition: 0.2s ease;
+        -webkit-box-reflect: below -105px;
+      }
+    }
+  }
+}
+
+/*Screen Size 1400*/
+@media screen and (max-width: 1400px) {
+  /*Hero Section*/
+  .home {
+    .hero-right {
+      .hero-img {
+        transition: 0.2s ease;
+        -webkit-box-reflect: below -90px;
+      }
+    }
+  }
+}
+
+/* Laptop Screen */
+@media screen and (max-width: 1200px) {
+  /*Custom Css*/
+  /*Hero Section*/
+  .home {
+    .hero-right {
+      .hero-img {
+        transition: 0.2s ease;
+        -webkit-box-reflect: unset;
+      }
+    }
+  }
+  /*Features*/
+  .features {
+    padding: 110px 0 0px;
+    transition: all 0.2s ease;
+  }
+  /*Work*/
+  .work {
+    .r2 {
+      margin-top: 0;
+      transition: all 0.2s ease;
+    }
+  }
+
+  /*Roadmap*/
+  .roadmap {
+    padding: 110px 0 0;
+    .rd-card {
+      max-width: 100%;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 100%;
+      transition: all 0.2s ease;
+    }
+  }
+}
+
+/* Ipad Screen */
+@media screen and (max-width: 991px) {
+  /*Custom Css*/
+
+  /*Navbar*/
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  .navbar ul {
+    text-align: center;
+    border: none;
+  }
+  .navbar .nav-link {
+    color: #fff;
+    border-color: transparent;
+    background: transparent;
+  }
+  .navbar-toggler {
+    color: #fff;
+  }
+
+  .navbar .nav-btns {
+    justify-content: center;
+  }
+
+  /*Hero*/
+  .home {
+    padding: 150px 2% 50px;
+    transition: all 0.2s ease;
+
+    h1 {
+      font-size: 48px;
+      transition: all 0.2s ease;
+    }
+    .hero-right {
+      display: none;
+      transition: all 0.2s ease;
+    }
+    .hero-btns {
+      .main-btn {
+        font-size: 18px;
+        padding: 10px 30px;
+        transition: all 0.2s ease;
+
+        .btn-2 {
+          width: 50px;
+          height: 50px;
+          transition: all 0.2s ease;
+        }
+      }
+      .hero-social-link {
+        margin-top: 60px;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+  /*Features*/
+  .features {
+    h2 {
+      font-size: 48px;
+      transition: all 0.2s ease;
+    }
+    .feature-card {
+      h3 {
+        font-size: 20px;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+  /*Work*/
+  .work {
+    padding: 50px 2% 10px;
+    background-image: none;
+    transition: all 0.2s ease;
+    .work-bg {
+      display: none;
+    }
+    .fe-card {
+      .card-top {
+        h3 {
+          font-size: 24px;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+  }
+  /*Roadmap*/
+  .roadmap {
+    padding: 50px 0 0;
+    transition: all 0.2s ease;
+    .container {
+      .rd-card {
+        max-width: 100%;
+        transition: all 0.2s ease;
+      }
+    }
+    h2 {
+      font-size: 48px;
+      transition: all 0.2s ease;
+    }
+    .container {
+      .rd-card {
+        h4 {
+          font-size: 24px;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+  }
+  /*Footer*/
+  .footer {
+    .f-logo {
+      margin-bottom: 15px;
+    }
+    .footer-nav {
+      margin-bottom: 15px;
+
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 768px) {
+  /*Custom Css*/
+
+  /*Hero*/
+  .home {
+    h1 {
+      font-size: 40px;
+      transition: all 0.2s ease;
+    }
+    p {
+      font-size: 16px;
+    }
+    .hero-btns {
+      .main-btn {
+        font-size: 16px;
+        padding: 8px 26px;
+        transition: all 0.2s ease;
+      }
+
+      .btn-2 {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .hero-social-link {
+      margin-top: 50px;
+      transition: all 0.2s ease;
+
+      & li {
+        margin-right: 25px;
+        transition: all 0.2s ease;
+      }
+
+      & a {
+        font-size: 18px;
+      }
+      & img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  /*Features*/
+  .features {
+    h2 {
+      font-size: 40px;
+      transition: all 0.2s ease;
+    }
+    .feature-card {
+      min-height: auto;
+    }
+  }
+
+  /*Roadmap*/
+  .roadmap {
+    h2 {
+      font-size: 40px;
+    }
+    .container {
+      .rd-card {
+        h4 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+/*Screen Size 562px*/
+@media screen and (max-width: 562px) {
+  /*Footer*/
+  .footer {
+    .footer-nav {
+      ul {
+        display: inline-block;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}
+
+/* Screen Size 550px */
+@media screen and (max-width: 550px) {
+  /*Custom Css*/
+
+  /*Hero*/
+  .home {
+    padding: 110px 1% 30px;
+    transition: all 0.2s ease;
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .hero-social-link {
+      margin-top: 30px;
+      transition: all 0.2s ease;
+
+      & li {
+        margin-right: 30px;
+      }
+
+      & a {
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      & img {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Screen Size 550px */
+@media screen and (max-width: 550px) {
+  /*Custom Css*/
+
+  /*Hero*/
+  .home {
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .hero-social-link {
+      & li {
+        margin-right: 30px;
+      }
+
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+  /*Footer*/
+  .footer {
+    .footer-social-link {
+      img {
+        display: none;
+      }
+    }
+  }
+}
